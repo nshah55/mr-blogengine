@@ -45,3 +45,12 @@ h1
 	border-top: dashed 1px orange;
 	color: Gray;
 }
+
+.success
+{
+	width: 95%;
+	background: #CCFFCC;
+	border: solid 1px Green;
+	text-align: center;
+	padding: 20px;
+}
