@@ -107,6 +107,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BenLovell.BlogEngine.Core\BenLovell.BlogEngine.Core.csproj">
+      <Project>{41897BDF-7DAC-4836-9BEF-F805B081B1A8}</Project>
+      <Name>BenLovell.BlogEngine.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BenLovell.BlogEngine.Web\BenLovell.BlogEngine.Web.csproj">
       <Project>{90ABCB93-574B-494A-B4C9-9FEC86098897}</Project>
       <Name>BenLovell.BlogEngine.Web</Name>
