@@ -1,0 +1,10 @@
+D:\Code\BenLovell.BlogEngine\BenLovell.BlogEngine.Core\bin\Debug\BenLovell.BlogEngine.Core.dll
+D:\Code\BenLovell.BlogEngine\BenLovell.BlogEngine.Core\bin\Debug\BenLovell.BlogEngine.Core.pdb
+D:\Code\BenLovell.BlogEngine\BenLovell.BlogEngine.Core\obj\Debug\ResolveAssemblyReference.cache
+D:\Code\BenLovell.BlogEngine\BenLovell.BlogEngine.Core\obj\Debug\BenLovell.BlogEngine.Core.dll
+D:\Code\BenLovell.BlogEngine\BenLovell.BlogEngine.Core\obj\Debug\BenLovell.BlogEngine.Core.pdb
+D:\Code\BenLovell.BlogEngine\trunk\src\BenLovell.BlogEngine.Core\bin\Debug\BenLovell.BlogEngine.Core.dll
+D:\Code\BenLovell.BlogEngine\trunk\src\BenLovell.BlogEngine.Core\bin\Debug\BenLovell.BlogEngine.Core.pdb
+D:\Code\BenLovell.BlogEngine\trunk\src\BenLovell.BlogEngine.Core\obj\Debug\ResolveAssemblyReference.cache
+D:\Code\BenLovell.BlogEngine\trunk\src\BenLovell.BlogEngine.Core\obj\Debug\BenLovell.BlogEngine.Core.dll
+D:\Code\BenLovell.BlogEngine\trunk\src\BenLovell.BlogEngine.Core\obj\Debug\BenLovell.BlogEngine.Core.pdb

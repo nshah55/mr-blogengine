@@ -1,0 +1,70 @@
+<Configuration>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:WatiN.Core.IE">
+      <Item value="TextField" priority="6" />
+      <Item value="Button" priority="1" />
+      <Item value="ContainsText" priority="3" />
+      <Item value="Close" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BenLovell.BlogEngine.Web.Controllers.PostController">
+      <Item value="Add" priority="0" />
+      <Item value="SelectedViewName" priority="1" />
+      <Item value="PropertyBag" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BenLovell.BlogEngine.Core.Dto.PostDto">
+      <Item value="Title" priority="0" />
+      <Item value="Description" priority="0" />
+      <Item value="Content" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WatiN">
+      <Item value="Core" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <EditorManager>
+    <RecentFiles>
+      <File id="90ABCB93-574B-494A-B4C9-9FEC86098897/f:Web.config" caret="801" scrollPosition="0|0" />
+      <File id="90ABCB93-574B-494A-B4C9-9FEC86098897/d:Config/f:facilities.config" caret="0" scrollPosition="0|0" />
+      <File id="90ABCB93-574B-494A-B4C9-9FEC86098897/d:Config/f:components.config" caret="86" scrollPosition="0|0" />
+      <File id="90ABCB93-574B-494A-B4C9-9FEC86098897/d:Content/d:css/f:default.css" caret="161" scrollPosition="0|0" />
+      <File id="90ABCB93-574B-494A-B4C9-9FEC86098897/d:Config/f:controllers.config" caret="0" scrollPosition="0|0" />
+      <File id="90ABCB93-574B-494A-B4C9-9FEC86098897/d:Views/d:Layouts/f:default.vm" caret="0" scrollPosition="0|0" />
+      <File id="BFDD8331-8CA1-4E6F-BA5C-AA7311F8B339/d:Unit/f:PostControllerFixture.cs" caret="0" scrollPosition="0|0" />
+      <File id="90ABCB93-574B-494A-B4C9-9FEC86098897/d:Controllers/f:PostController.cs" caret="212" scrollPosition="0|0" />
+      <File id="90ABCB93-574B-494A-B4C9-9FEC86098897/d:Views/d:Post/f:add.vm" caret="432" scrollPosition="0|0" />
+      <File id="BFDD8331-8CA1-4E6F-BA5C-AA7311F8B339/d:Acceptance/f:AddPostFixture.cs" caret="970" scrollPosition="0|0" />
+    </RecentFiles>
+  </EditorManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <ReFormatCode>
+    <ReorderMembers>False</ReorderMembers>
+    <OptimizeUsings>False</OptimizeUsings>
+    <RemoveRedundantThis>False</RemoveRedundantThis>
+    <ShortenReferences>False</ShortenReferences>
+  </ReFormatCode>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <Providers />
+  </UnitTestRunner>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+</Configuration>

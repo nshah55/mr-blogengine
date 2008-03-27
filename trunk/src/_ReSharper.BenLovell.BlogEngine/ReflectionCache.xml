@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="805306377">
+  <Assembly Name="WatiN.Core, Version=1.2.1.4000, Culture=neutral, PublicKeyToken=null" Image="c4233187-6b86-4aa6-879a-8f1cd732917c" Timestamp="633287808320000000" />
+  <Assembly Name="Castle.Facilities.ActiveRecordIntegration, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="4ce7fde7-c50e-4e12-809f-63129eefda42" Timestamp="633413571234920000" XmlDocIndexTimestamp="633413574287940000" />
+  <Assembly Name="Castle.ActiveRecord, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="e16ef368-5037-4cf0-ace9-0a24fbf654ff" Timestamp="633410236852436277" XmlDocIndexTimestamp="633413574287680000" />
+  <Assembly Name="Castle.Components.Common.TemplateEngine, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="881d211c-454e-4295-b618-3d07b2fe1513" Timestamp="633410236850720277" XmlDocIndexTimestamp="633413889665370000" />
+  <Assembly Name="Castle.Components.Common.TemplateEngine.NVelocityTemplateEngine, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="a347180a-7eb0-40af-9d21-1a32bb00a41a" Timestamp="633410236852280277" XmlDocIndexTimestamp="633413574287830000" />
+  <Assembly Name="Castle.MonoRail.ActiveRecordSupport, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="86e901e8-0959-4b2f-96f8-cfbed8feeff9" Timestamp="633410236853060277" XmlDocIndexTimestamp="633413574288000000" />
+  <Assembly Name="Iesi.Collections, Version=1.0.0.3, Culture=neutral, PublicKeyToken=aa95f207798dfdb4" Image="8fa332fa-84a4-44ad-b1fc-60c5916b63b7" Timestamp="633410236849784277" XmlDocIndexTimestamp="633413574288320000" />
+  <Assembly Name="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821" Image="397fcc8e-4ef5-41a1-86c3-6af0dda5bc61" Timestamp="633410236852124277" XmlDocIndexTimestamp="633413574288380000" />
+  <Assembly Name="NHibernate, Version=2.0.0.1001, Culture=neutral, PublicKeyToken=aa95f207798dfdb4" Image="e8b5dd15-4c3b-47a3-8765-2678c3a20902" Timestamp="633410236850408277" XmlDocIndexTimestamp="633413574289780000" />
+  <Assembly Name="WatiN.Core, Version=1.2.1.4000, Culture=neutral" Image="1a329435-790c-4289-a502-47798262ae14" Timestamp="633232112748251548" />
+  <Assembly Name="Castle.Components.Binder, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="db48bd1b-6a53-46be-b2aa-d480afb557e2" Timestamp="633415222201558623" />
+  <Assembly Name="Castle.Components.Common.EmailSender, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="b47e7e37-f318-4a87-ac1d-d9fb25c78147" Timestamp="633415222237098623" />
+  <Assembly Name="Castle.Components.Validator, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="72bd7fa9-7ab0-4ace-b978-2d719fc41389" Timestamp="633415222157918623" />
+  <Assembly Name="Castle.Core, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="ef198f5d-26de-45dc-925e-26822330a02e" Timestamp="633415221997818623" />
+  <Assembly Name="Castle.DynamicProxy2, Version=2.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="8a3228ec-25fb-472b-91fc-148726e5e77b" Timestamp="633415222070018623" />
+  <Assembly Name="Castle.MicroKernel, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="648dabe7-421a-4419-b975-c0996d32d238" Timestamp="633415222123668623" />
+  <Assembly Name="Castle.MonoRail.Framework, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="d7f33105-4bb4-4f01-aec5-aaa73a044eb6" Timestamp="633415222317158623" />
+  <Assembly Name="Castle.MonoRail.Framework.Views.NVelocity, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="bc07895f-c953-4a57-9669-c7f437145248" Timestamp="633415222344018623" />
+  <Assembly Name="Castle.MonoRail.TestSupport, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="8bde5fa1-1fa1-4329-a5f3-f0377bd7178b" Timestamp="633415222395098623" />
+  <Assembly Name="Castle.MonoRail.WindsorExtension, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="9df3e6d8-f332-40a2-9e2f-a37969dd5b9c" Timestamp="633415222331578623" />
+  <Assembly Name="Castle.Windsor, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="f0b6f09b-93e6-4fc1-94f9-a3d15e66825f" Timestamp="633415222137108623" />
+  <Assembly Name="NVelocity, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc" Image="3f85a91b-f8e7-4a9a-a494-b2125656e407" Timestamp="633415222093778623" />
+  <Assembly Name="Rhino.Mocks, Version=3.3.0.906, Culture=neutral, PublicKeyToken=0b3305902db7183f" Image="0ad0e981-a9b3-4331-8152-2f6d10e6d346" Timestamp="633415215881572623" XmlDocIndexTimestamp="633415210368856623" />
+  <Assembly Name="WatiN.Core, Version=1.1.2.4000, Culture=neutral" Image="0cc2f552-817b-451f-8f4d-9219c2a2bf08" Timestamp="633415215880636623" />
+  <Assembly Name="MbUnit.Framework, Version=1.0.2700.29885, Culture=neutral, PublicKeyToken=5e72ecd30bc408d5" Image="538df95b-f209-4718-abdc-1d24b60fe57e" Timestamp="633415215899044623" />
+  <Assembly Name="WatiN.Core, Version=1.1.2.4000, Culture=neutral, PublicKeyToken=null" Image="484735b0-f382-4618-97f4-1a7906fc0bc2" Timestamp="633415215880636623" />
+  <Assembly Name="Interop.SHDocVw, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null" Image="6d0e2058-2c9f-4591-9f4e-202bc892df2a" Timestamp="633287808260000000" />
+  <Assembly Name="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Image="4b7d9c46-a438-47f3-8b3b-9478d96507b1" Timestamp="631836679960000000" />
+  <Assembly Name="Interop.SHDocVw, Version=1.1.0.0, Culture=neutral" Image="20334cd5-5f0c-44c1-9501-74e99fabf7f5" Timestamp="633287808260000000" />
+</Assemblies>

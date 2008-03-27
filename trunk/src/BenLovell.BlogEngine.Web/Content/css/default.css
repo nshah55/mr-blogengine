@@ -1,0 +1,47 @@
+﻿*
+{
+	font: 1.05em calibri;
+}
+
+label
+{
+	width: 5em;
+	float: left;
+	text-align: right;
+	margin: 5px;
+	display: block
+}
+
+input 
+{
+	margin: 5px;
+}
+
+fieldset
+{
+	position: relative;
+	background-color: #f4f4f4;
+	margin: 20px;
+}
+
+legend
+{
+	position: absolute;
+	top: -.5em;
+	left: .2em;
+}
+
+h1
+{
+	font-size: 2em;
+	font-variant: small-caps;
+	border-bottom: dashed 1px orange;
+}
+
+#footer
+{
+	margin-top: 50px;
+	font-size: small;
+	border-top: dashed 1px orange;
+	color: Gray;
+}
