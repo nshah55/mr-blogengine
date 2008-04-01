@@ -33,7 +33,8 @@
   <ItemGroup>
     <Compile Include="Acceptance\AddPostFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Unit\PostControllerFixture.cs" />
+    <Compile Include="Unit\Controllers\PostControllerFixture.cs" />
+    <Compile Include="Unit\Services\BlogPostServiceFixture.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Castle.Components.Binder, Version=1.0.3.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
