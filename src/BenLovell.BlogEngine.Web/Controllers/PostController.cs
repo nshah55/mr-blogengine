@@ -1,3 +1,4 @@
+using BenLovell.BlogEngine.Core;
 using BenLovell.BlogEngine.Core.Messages;
 using Castle.MonoRail.Framework;
 
@@ -6,15 +7,26 @@ namespace BenLovell.BlogEngine.Web.Controllers
 	[Layout("default")]
 	public class PostController : SmartDispatcherController
 	{
-		public void Add()
+		private readonly IBlogPostService blogPostService;
+
+		public PostController(IBlogPostService blogPostService)
 		{
-			RenderView("add");
+			this.blogPostService = blogPostService;
 		}
 
 		public void Save([DataBind("post")] AddPostRequestDto post)
 		{
-			PropertyBag["responseMessage"] = "The post titled: 'Title' was created!";
+			AddPostResponseDto response = blogPostService.AddPost(post);
+			
+			if(response.PostAdded)
+				PropertyBag["responseMessage"] = "The post titled: 'Title' was created!";
+
 			RenderView("postcreated");
+		}
+
+		public void Add()
+		{
+			RenderView("add");
 		}
 	}
 }
