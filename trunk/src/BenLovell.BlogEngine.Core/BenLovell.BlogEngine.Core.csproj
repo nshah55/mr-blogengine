@@ -36,6 +36,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IBlogPost.cs" />
+    <Compile Include="IBlogPostMapper.cs" />
     <Compile Include="IBlogPostService.cs" />
     <Compile Include="Messages\AddPostRequestDto.cs" />
     <Compile Include="Messages\AddPostResponseDto.cs" />
