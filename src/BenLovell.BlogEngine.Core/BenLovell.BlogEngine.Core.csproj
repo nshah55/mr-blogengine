@@ -39,6 +39,8 @@
     <Compile Include="IBlogPost.cs" />
     <Compile Include="IBlogPostMapper.cs" />
     <Compile Include="IBlogPostService.cs" />
+    <Compile Include="Domain\BlogPost.cs" />
+    <Compile Include="Mappers\BlogPostMapper.cs" />
     <Compile Include="Messages\AddPostRequestDto.cs" />
     <Compile Include="Messages\AddPostResponseDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

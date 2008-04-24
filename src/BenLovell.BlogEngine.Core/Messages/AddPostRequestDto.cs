@@ -6,19 +6,19 @@ namespace BenLovell.BlogEngine.Core.Messages
 		private string description;
 		private string content;
 
-		public string Title
+		public virtual string Title
 		{
 			get { return title; }
 			set { title = value; }
 		}
 
-		public string Description
+		public virtual string Description
 		{
 			get { return description; }
 			set { description = value; }
 		}
 
-		public string Content
+		public virtual string Content
 		{
 			get { return content; }
 			set { content = value; }
