@@ -115,6 +115,7 @@
     <Content Include="Global.asax" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Config\mappers.config" />
     <None Include="Views\Layouts\default.vm" />
     <None Include="Views\Post\add.vm" />
     <None Include="Views\Post\postcreated.vm" />

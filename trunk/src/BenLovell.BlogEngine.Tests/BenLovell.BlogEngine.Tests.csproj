@@ -34,6 +34,7 @@
     <Compile Include="Acceptance\AddPostFixture.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Unit\Controllers\PostControllerFixture.cs" />
+    <Compile Include="Unit\Mappers\BlogPostMapperFixture.cs" />
     <Compile Include="Unit\Services\BlogPostServiceFixture.cs" />
   </ItemGroup>
   <ItemGroup>
