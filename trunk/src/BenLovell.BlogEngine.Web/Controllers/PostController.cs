@@ -14,6 +14,7 @@ namespace BenLovell.BlogEngine.Web.Controllers
 			this.blogPostService = blogPostService;
 		}
 
+		[AccessibleThrough(Verb.Post)]
 		public void Save([DataBind("post")] AddPostRequestDto post)
 		{
 			AddPostResponseDto response = blogPostService.AddPost(post);

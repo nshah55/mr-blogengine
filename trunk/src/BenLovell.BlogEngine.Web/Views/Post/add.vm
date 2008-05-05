@@ -1,4 +1,4 @@
-﻿<form method="post" action="$Url.For("%{action='save'}")">
+﻿$Form.FormTag("%{action='save'}")
 	<fieldset>
 		<legend>Add Post</legend>
 		<div>
@@ -15,4 +15,4 @@
 		</div>
 		<div>$Form.Submit("Submit")</div>
 	</fieldset>
-</form>
+$Form.EndFormTag()
