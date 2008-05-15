@@ -12,6 +12,8 @@ namespace BenLovell.BlogEngine.Tests.Unit.Services
 		private MockRepository mockery;
 		private IBlogPost post;
 		private IBlogPostMapper blogPostMapper;
+		private IBlogPostRepository blogPostRepository;
+		private IBlogPostService service;
 
 		[SetUp]
 		public void Setup()
@@ -19,12 +21,31 @@ namespace BenLovell.BlogEngine.Tests.Unit.Services
 			mockery = new MockRepository();
 			blogPostMapper = mockery.DynamicMock<IBlogPostMapper>();
 			post = mockery.DynamicMock<IBlogPost>();
+			blogPostRepository = mockery.DynamicMock<IBlogPostRepository>();
+
+			service = new BlogPostService(blogPostMapper, blogPostRepository);
+		}
+
+		[Test]
+		public void AddPost_ShouldUseRepositoryForPersistence()
+		{
+			AddPostRequestDto requestDto = new AddPostRequestDto();
+
+			using (mockery.Record())
+			{
+				Expect.Call(blogPostMapper.MapFrom(requestDto)).Return(post);
+				blogPostRepository.Save(post);
+			}
+
+			using (mockery.Playback())
+			{
+				service.AddPost(requestDto);
+			}
 		}
 
 		[Test]
 		public void AddPost_ShouldSavePost_AndBuildResponseWithSuccess()
 		{
-			IBlogPostService service = new BlogPostService(blogPostMapper);
 			AddPostResponseDto response = service.AddPost(new AddPostRequestDto());
 			Assert.IsTrue(response.PostAdded, "PostAdded was false!");
 		}
@@ -33,7 +54,6 @@ namespace BenLovell.BlogEngine.Tests.Unit.Services
 		public void AddPost_ShouldUseMapperForPost()
 		{
 			AddPostRequestDto requestDto = new AddPostRequestDto();
-			IBlogPostService service = new BlogPostService(blogPostMapper);
 			
 			using(mockery.Record())
 			{

@@ -58,12 +58,14 @@
   <ItemGroup>
     <Compile Include="IBlogPost.cs" />
     <Compile Include="IBlogPostMapper.cs" />
+    <Compile Include="IBlogPostRepository.cs" />
     <Compile Include="IBlogPostService.cs" />
     <Compile Include="Domain\BlogPost.cs" />
     <Compile Include="Mappers\BlogPostMapper.cs" />
     <Compile Include="Messages\AddPostRequestDto.cs" />
     <Compile Include="Messages\AddPostResponseDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\BlogPostRepository.cs" />
     <Compile Include="Services\BlogPostService.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
